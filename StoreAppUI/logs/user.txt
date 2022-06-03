@@ -1,0 +1,168 @@
+2022-05-21 01:29:16.906 -05:00 [INF] User went to Search Customer Menu
+2022-05-21 01:29:41.168 -05:00 [INF] User went to Search Customer Menu
+2022-05-21 01:29:44.635 -05:00 [INF] User going to main menu
+2022-05-23 16:50:15.799 -05:00 [INF] User went to Search Customer Menu
+2022-05-23 16:51:25.475 -05:00 [INF] User went to Search Customer Menu
+2022-05-23 16:54:36.074 -05:00 [INF] User went to Search Customer Menu
+2022-05-23 16:54:50.209 -05:00 [INF] User went to Search Customer Menu
+2022-05-23 16:54:52.913 -05:00 [INF] User going to main menu
+2022-05-23 17:26:10.182 -05:00 [INF] User went to Add Customer Menu
+2022-05-23 17:31:00.824 -05:00 [INF] User went to Add Customer Menu
+2022-05-23 17:31:57.382 -05:00 [INF] User went to Add Customer Menu
+2022-05-23 17:32:33.886 -05:00 [INF] User going to main menu
+2022-05-23 17:52:59.083 -05:00 [INF] User went to Search Customer Menu
+2022-05-23 17:53:21.105 -05:00 [INF] User went to Search Customer Menu
+2022-05-23 17:53:24.586 -05:00 [INF] User going to main menu
+2022-05-24 21:18:56.751 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:02:13.281 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:02:36.971 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:04:15.041 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:04:27.907 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:05:10.254 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:05:40.216 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:06:16.254 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:23:50.497 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:26:00.052 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:29:04.666 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:29:45.730 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:54:38.230 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 22:55:46.514 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 23:06:59.095 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 23:11:29.076 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 23:11:59.920 -05:00 [INF] User went to Search Customer Menu
+2022-05-24 23:33:42.008 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 00:39:06.383 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 00:51:16.469 -05:00 [INF] User going to main menu
+2022-05-25 00:51:19.779 -05:00 [INF] User going to main menu
+2022-05-25 00:51:47.390 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 00:52:08.915 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 00:52:54.762 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 00:53:18.725 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 00:54:35.503 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 00:54:50.233 -05:00 [INF] User went to View Customer Order Menu
+2022-05-25 00:54:50.233 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 07:03:36.174 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 07:04:04.050 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 07:04:15.018 -05:00 [INF] User went to View Customer Order Menu
+2022-05-25 07:04:18.039 -05:00 [INF] User going to main menu
+2022-05-25 08:01:53.699 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 09:24:19.485 -05:00 [INF] User went to Select Order Menu
+2022-05-25 11:00:17.992 -05:00 [INF] User is adding customer
+2022-05-25 11:00:18.005 -05:00 [INF] User went to Add Customer Menu
+2022-05-25 11:00:28.369 -05:00 [INF] User going to main menu
+2022-05-25 11:00:32.069 -05:00 [INF] User is searching  for customer
+2022-05-25 11:00:32.069 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 11:00:53.815 -05:00 [INF] User is viewing customer order
+2022-05-25 11:00:59.111 -05:00 [INF] User went back to main menu
+2022-05-25 11:00:59.112 -05:00 [INF] User going to main menu
+2022-05-25 11:01:01.402 -05:00 [INF] User is searching  for customer
+2022-05-25 11:01:01.402 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 11:01:03.307 -05:00 [WRN] User entered invalid code
+2022-05-25 11:01:03.307 -05:00 [INF] User went to Search Customer Menu
+2022-05-25 11:01:12.137 -05:00 [INF] User is adding an order
+2022-05-25 11:01:12.137 -05:00 [INF] User went to Select Order Menu
+2022-05-25 11:05:02.521 -05:00 [INF] User is searching  for customer
+2022-05-25 11:05:02.534 -05:00 [INF] User went to Search Customer Menu
+2022-05-26 15:30:58.038 -05:00 [INF] User is adding customer
+2022-05-26 15:30:58.053 -05:00 [INF] User went to Add Customer Menu
+2022-05-26 15:46:20.799 -05:00 [INF] User going to main menu
+2022-05-26 15:46:32.607 -05:00 [INF] User is searching  for customer
+2022-05-26 15:46:32.607 -05:00 [INF] User went to Search Customer Menu
+2022-05-26 15:46:48.503 -05:00 [INF] User is adding an order
+2022-05-26 15:46:48.504 -05:00 [INF] User went to Select Order Menu
+2022-05-29 01:57:57.897 -05:00 [INF] User is searching  for customer
+2022-05-29 01:57:57.908 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 01:58:45.188 -05:00 [INF] User is searching  for customer
+2022-05-29 01:58:45.198 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 02:01:57.502 -05:00 [INF] User is searching  for customer
+2022-05-29 02:01:57.513 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 02:02:27.497 -05:00 [INF] User is viewing customer order
+2022-05-29 02:02:31.108 -05:00 [INF] User went back to main menu
+2022-05-29 02:02:31.108 -05:00 [INF] User going to main menu
+2022-05-29 02:02:32.765 -05:00 [INF] User is searching  for customer
+2022-05-29 02:02:32.765 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 02:02:41.380 -05:00 [INF] User is adding an order
+2022-05-29 02:02:41.380 -05:00 [INF] User went to Select Order Menu
+2022-05-29 21:42:42.647 -05:00 [INF] User is searching  for customer
+2022-05-29 21:42:42.659 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 21:54:00.026 -05:00 [INF] User is searching  for customer
+2022-05-29 21:54:00.037 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 21:54:31.037 -05:00 [INF] User is searching  for customer
+2022-05-29 21:54:31.048 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 22:01:52.892 -05:00 [INF] User is searching  for customer
+2022-05-29 22:01:52.903 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 22:02:03.561 -05:00 [INF] User is adding an order
+2022-05-29 22:02:03.561 -05:00 [INF] User went to Select Order Menu
+2022-05-29 22:57:59.698 -05:00 [INF] User is searching  for customer
+2022-05-29 22:57:59.709 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 22:58:06.472 -05:00 [INF] User is viewing customer order
+2022-05-29 22:58:06.472 -05:00 [INF] User went to View Customer Order Menu
+2022-05-29 22:58:06.473 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 22:58:33.067 -05:00 [INF] User is viewing customer order
+2022-05-29 22:58:33.068 -05:00 [INF] User went to View Customer Order Menu
+2022-05-29 22:58:33.068 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:12:21.628 -05:00 [INF] User is viewing customer order
+2022-05-29 23:12:21.628 -05:00 [INF] User went to View Customer Order Menu
+2022-05-29 23:12:21.629 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:12:27.901 -05:00 [INF] User went back to main menu
+2022-05-29 23:12:27.901 -05:00 [INF] User going to main menu
+2022-05-29 23:26:38.966 -05:00 [INF] User is searching  for customer
+2022-05-29 23:26:38.978 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:26:48.533 -05:00 [INF] User is viewing customer order
+2022-05-29 23:26:48.533 -05:00 [INF] User went to View Customer Order Menu
+2022-05-29 23:29:02.038 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:29:04.824 -05:00 [INF] User went back to main menu
+2022-05-29 23:29:04.824 -05:00 [INF] User going to main menu
+2022-05-29 23:30:06.732 -05:00 [INF] User is searching  for customer
+2022-05-29 23:30:06.742 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:31:17.254 -05:00 [INF] User is searching  for customer
+2022-05-29 23:31:17.265 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:31:39.868 -05:00 [INF] User is searching  for customer
+2022-05-29 23:31:39.880 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:31:45.852 -05:00 [INF] User is viewing customer order
+2022-05-29 23:31:45.852 -05:00 [INF] User went to View Customer Order Menu
+2022-05-29 23:31:52.969 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:32:01.080 -05:00 [INF] User is viewing customer order
+2022-05-29 23:32:01.080 -05:00 [INF] User went to View Customer Order Menu
+2022-05-29 23:32:32.818 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:32:36.568 -05:00 [INF] User went back to main menu
+2022-05-29 23:32:36.568 -05:00 [INF] User going to main menu
+2022-05-29 23:33:08.390 -05:00 [INF] User is searching  for customer
+2022-05-29 23:33:08.402 -05:00 [INF] User went to Search Customer Menu
+2022-05-29 23:33:21.272 -05:00 [INF] User is adding an order
+2022-05-29 23:33:21.272 -05:00 [INF] User went to Select Order Menu
+2022-05-30 22:57:07.085 -05:00 [INF] User is searching  for customer
+2022-05-30 22:57:07.100 -05:00 [INF] User went to Search Customer Menu
+2022-05-30 22:57:13.470 -05:00 [INF] User is viewing customer order
+2022-05-30 22:57:13.470 -05:00 [INF] User went to View Customer Order Menu
+2022-05-30 23:15:58.780 -05:00 [INF] User went to Search Customer Menu
+2022-05-30 23:16:01.538 -05:00 [INF] User went back to main menu
+2022-05-30 23:16:01.538 -05:00 [INF] User going to main menu
+2022-05-30 23:16:02.921 -05:00 [INF] User is searching  for customer
+2022-05-30 23:16:02.921 -05:00 [INF] User went to Search Customer Menu
+2022-05-30 23:16:11.015 -05:00 [INF] User is viewing customer order
+2022-05-30 23:16:11.015 -05:00 [INF] User went to View Customer Order Menu
+2022-05-30 23:16:26.698 -05:00 [INF] User went to Search Customer Menu
+2022-05-30 23:16:33.117 -05:00 [INF] User is adding an order
+2022-05-30 23:16:33.117 -05:00 [INF] User went to Select Order Menu
+2022-05-31 14:33:29.400 -05:00 [INF] User is adding customer
+2022-05-31 14:33:29.415 -05:00 [INF] User went to Add Customer Menu
+2022-05-31 14:33:46.916 -05:00 [INF] User going to main menu
+2022-05-31 14:33:49.912 -05:00 [INF] User is searching  for customer
+2022-05-31 14:33:49.912 -05:00 [INF] User went to Search Customer Menu
+2022-05-31 14:33:59.833 -05:00 [INF] User went back to Search customer menu
+2022-05-31 14:33:59.833 -05:00 [INF] User went to Search Customer Menu
+2022-05-31 14:34:08.499 -05:00 [INF] User is viewing customer order
+2022-05-31 14:34:08.499 -05:00 [INF] User went to View Customer Order Menu
+2022-05-31 14:35:24.152 -05:00 [INF] User went to Search Customer Menu
+2022-05-31 14:35:25.960 -05:00 [INF] User went back to main menu
+2022-05-31 14:35:25.960 -05:00 [INF] User going to main menu
+2022-05-31 14:35:41.042 -05:00 [INF] User is searching  for customer
+2022-05-31 14:35:41.055 -05:00 [INF] User went to Search Customer Menu
+2022-05-31 14:36:32.183 -05:00 [INF] User is searching  for customer
+2022-05-31 14:36:32.201 -05:00 [INF] User went to Search Customer Menu
+2022-05-31 14:36:41.491 -05:00 [INF] User is viewing customer order
+2022-05-31 14:36:41.491 -05:00 [INF] User went to View Customer Order Menu
+2022-05-31 14:37:29.649 -05:00 [INF] User went to Search Customer Menu
+2022-05-31 14:41:58.663 -05:00 [INF] User went back to main menu
+2022-05-31 14:41:58.664 -05:00 [INF] User going to main menu

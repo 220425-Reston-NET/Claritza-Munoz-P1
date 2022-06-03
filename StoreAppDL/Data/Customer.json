@@ -1,0 +1,41 @@
+[
+  {
+    "Username": "testuser",
+    "Name": "testname",
+    "Address": "testaddress",
+    "Email": "testemail",
+    "Orders": [
+      {
+        "Location": "Texas",
+        "_lineItems": [],
+        "TotalPrice": 19.99
+      }
+    ]
+  },
+  {
+    "Username": "test1",
+    "Name": "test1",
+    "Address": "test1",
+    "Email": "test1",
+    "Orders": [
+      {
+        "Location": "Texas",
+        "_lineItems": [],
+        "TotalPrice": 19.99
+      }
+    ]
+  },
+  {
+    "Username": "test2",
+    "Name": "test2",
+    "Address": "test2",
+    "Email": "test2",
+    "Orders": [
+      {
+        "Location": "Texas",
+        "_lineItems": [],
+        "TotalPrice": 19.99
+      }
+    ]
+  }
+]
