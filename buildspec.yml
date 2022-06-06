@@ -2,6 +2,7 @@
 version: 0.2
 
 phases:
+  # phase used to install all the neccessary dependencies
   install:
     commands:
       - echo 'Installing dotnet 6'
@@ -11,7 +12,7 @@ phases:
     commands:
       - echo 'Restoring dependencies of each project (the package) and unit testing'
       - dotnet restore
-      -  dotnet test --no-restore
+      - dotnet test --no-restore
 
   build:
     commands:
@@ -20,10 +21,10 @@ phases:
 
   post_build:
     commands:
-      - ehco 'Creating the publish folder for the app'
+      - echo 'Creating the publish folder for the app'
       - dotnet publish -c Release -o publish
 
-  artifacts:
-    files:
-      - 'Dockerfile'
-      - 'publish/**/*'
+artifacts:
+  files:
+    - 'Dockerfile'
+    - 'publish/**/*'

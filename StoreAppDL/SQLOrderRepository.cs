@@ -28,7 +28,8 @@ namespace StoreAppDL
         {
             string SQLquery = @"update Orders
                                 set Totalprice = @TotalPrice
-                                where Username = @Username and Location = @Location";
+                                set Location = @Location
+                                where Username = @Username and ID = @OrderID";
 
             using (SqlConnection con = new SqlConnection(_connectionString))
             {
@@ -36,6 +37,7 @@ namespace StoreAppDL
 
                 SqlCommand command = new SqlCommand(SQLquery, con);
 
+                command.Parameters.AddWithValue("@ID", p_resource.OrderID);
                 command.Parameters.AddWithValue("@Location", p_resource.Location);
                 command.Parameters.AddWithValue("@TotalPrice", p_resource.TotalPrice);
 

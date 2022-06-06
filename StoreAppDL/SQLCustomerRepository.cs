@@ -74,7 +74,7 @@ namespace StoreAppDL
         private List<Order> CustomerOrders(string p_username)
         {
 
-            string SQLQuery = @"select c.Username, o.Location, o.TotalPrice from Customer c
+            string SQLQuery = @"select c.Username, o.ID, o.Location, o.TotalPrice from Customer c
                                 inner join Orders o on c.Username = o.Username
                                 where c.Username = @Username";
 
@@ -93,8 +93,9 @@ namespace StoreAppDL
                 while (reader.Read())
                 {
                     listOfOrders.Add(new Order(){
-                        Location = reader.GetString(1),
-                        TotalPrice = (double)reader.GetDecimal(2)
+                        OrderID = reader.GetInt32(1),
+                        Location = reader.GetString(2),
+                        TotalPrice = (double)reader.GetDecimal(3)
                         
                     });
                 }

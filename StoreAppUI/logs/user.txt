@@ -166,3 +166,23 @@
 2022-05-31 14:37:29.649 -05:00 [INF] User went to Search Customer Menu
 2022-05-31 14:41:58.663 -05:00 [INF] User went back to main menu
 2022-05-31 14:41:58.664 -05:00 [INF] User going to main menu
+2022-06-04 11:35:24.854 -05:00 [INF] User is searching  for customer
+2022-06-04 11:35:24.879 -05:00 [INF] User went to Search Customer Menu
+2022-06-04 11:35:32.059 -05:00 [INF] User is viewing customer order
+2022-06-04 11:35:32.059 -05:00 [INF] User went to View Customer Order Menu
+2022-06-04 11:37:04.257 -05:00 [INF] User going to main menu
+2022-06-04 11:37:33.166 -05:00 [INF] User is searching  for customer
+2022-06-04 11:37:33.184 -05:00 [INF] User went to Search Customer Menu
+2022-06-04 11:37:42.187 -05:00 [INF] User is viewing customer order
+2022-06-04 11:37:42.187 -05:00 [INF] User went to View Customer Order Menu
+2022-06-04 11:37:47.844 -05:00 [INF] User going to main menu
+2022-06-04 11:38:14.169 -05:00 [INF] User is searching  for customer
+2022-06-04 11:38:14.187 -05:00 [INF] User went to Search Customer Menu
+2022-06-04 11:38:18.537 -05:00 [INF] User is viewing customer order
+2022-06-04 11:38:18.537 -05:00 [INF] User went to View Customer Order Menu
+2022-06-04 11:39:06.967 -05:00 [INF] User going to main menu
+2022-06-04 11:39:12.333 -05:00 [INF] User is searching  for customer
+2022-06-04 11:39:12.354 -05:00 [INF] User went to Search Customer Menu
+2022-06-04 11:39:17.066 -05:00 [INF] User is viewing customer order
+2022-06-04 11:39:17.066 -05:00 [INF] User went to View Customer Order Menu
+2022-06-04 11:40:02.953 -05:00 [INF] User going to main menu

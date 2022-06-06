@@ -35,7 +35,7 @@ namespace StoreAppModel
 
         public override string ToString()
         {
-            return $"========\nLocation: {Location}\nTotalPrice: {TotalPrice}\n========";
+            return $"================\nOrderID: {OrderID}\nLocation: {Location}\nTotalPrice: {TotalPrice}\n================";
         }
     }
 

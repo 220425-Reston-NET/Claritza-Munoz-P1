@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<iRepository<Customer>, SQLCustomerRepository>(Repo => new SQLCustomerRepository(builder.Configuration.GetConnectionString("Claritza Munoz")));
+builder.Services.AddScoped<iRepository<Customer>, SQLCustomerRepository>(Repo => new SQLCustomerRepository(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<iCustomerBL, CustomerBL>();
 
 var app = builder.Build();
