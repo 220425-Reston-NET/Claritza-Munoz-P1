@@ -3,6 +3,10 @@ from mcr.microsoft.com/dotnet/aspnet:6.0 as runtime
 
 workdir /app
 
+#copy the publish folder into the image
+copy /publish ./
+
+
 #cmd docker instructions tells the docker engine how/where to run this application
 entrypoint ["dotnet", "StoreAppAPI.dll"]
 
