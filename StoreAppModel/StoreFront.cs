@@ -8,8 +8,6 @@ namespace StoreAppModel
 
         public string StoreFrontLocation { get; set; }
 
-        public List<Order> _orders { get; set; }
-
         public List<Products> _products { get; set; }
 
         private int _storeID;
@@ -35,7 +33,6 @@ namespace StoreAppModel
             _storeID = 0;
             StoreFrontName = this.StoreFrontName;
             StoreFrontLocation = this.StoreFrontLocation;
-            _orders = new List<Order>();
             _products = new List<Products>();
         }
     }

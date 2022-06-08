@@ -11,11 +11,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<iRepository<Customer>, SQLCustomerRepository>(Repo => new SQLCustomerRepository(Environment.GetEnvironmentVariable("Connection_String")));
+builder.Services.AddScoped<iRepository<Customer>, SQLCustomerRepository>(Repo => new SQLCustomerRepository(builder.Configuration.GetConnectionString("Claritza Munoz")));
 builder.Services.AddScoped<iCustomerBL, CustomerBL>();
-builder.Services.AddScoped<iRepository<Order>, SQLOrderRepositoryRepo>(Repo => new SQLOrderRepositoryRepo(Environment.GetEnvironmentVariable("Connection_String")));
+builder.Services.AddScoped<iRepository<Order>, SQLOrderRepositoryRepo>(Repo => new SQLOrderRepositoryRepo(builder.Configuration.GetConnectionString("Claritza Munoz")));
 builder.Services.AddScoped<iOrderBL, OrderBL>();
-builder.Services.AddScoped<iRepository<StoreFront>, SQLStoreFrontRepository>(Repo => new SQLStoreFrontRepository(Environment.GetEnvironmentVariable("Connection_String")));
+builder.Services.AddScoped<iRepository<StoreFront>, SQLStoreFrontRepository>(Repo => new SQLStoreFrontRepository(builder.Configuration.GetConnectionString("Claritza Munoz")));
 builder.Services.AddScoped<iStoreFrontBL, StoreFrontBL>();
 
 
