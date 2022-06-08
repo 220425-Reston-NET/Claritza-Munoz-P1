@@ -13,6 +13,12 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<iRepository<Customer>, SQLCustomerRepository>(Repo => new SQLCustomerRepository(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<iCustomerBL, CustomerBL>();
+builder.Services.AddScoped<iRepository<Order>, SQLOrderRepositoryRepo>(Repo => new SQLOrderRepositoryRepo(Environment.GetEnvironmentVariable("Connection_String")));
+builder.Services.AddScoped<iOrderBL, OrderBL>();
+builder.Services.AddScoped<iRepository<StoreFront>, SQLStoreFrontRepository>(Repo => new SQLStoreFrontRepository(Environment.GetEnvironmentVariable("Connection_String")));
+builder.Services.AddScoped<iStoreFrontBL, StoreFrontBL>();
+
+
 
 var app = builder.Build();
 
