@@ -21,33 +21,7 @@ namespace StoreAppDL
 
         public List<Order> GetAll()
         {
-            string SQLQuery = @"select c.Username, o.ID, o.Location, o.TotalPrice from Customer c
-                                inner join Orders o on c.Username = o.Username
-                                where c.Username = @Username";
-
-            List<Order> listOfOrders = new List<Order>();
-
-            using (SqlConnection connect = new SqlConnection(_connectionString))
-            {
-                connect.Open();
-
-                SqlCommand command = new  SqlCommand(SQLQuery, connect);
-
-                //command.Parameters.AddWithValue("@Username", p_username);
-
-                SqlDataReader reader =  command.ExecuteReader();
-
-                while (reader.Read())
-                {
-                        listOfOrders.Add(new Order(){
-                        OrderID = reader.GetInt32(1),
-                        Location = reader.GetString(2),
-                        TotalPrice = (double)reader.GetDecimal(3)
-                        
-                    });
-                }
-                return listOfOrders;
-            }
+            throw new NotImplementedException();
         }
 
         public void Update(Order p_resource)

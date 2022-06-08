@@ -63,6 +63,7 @@ namespace StoreAppDL
                         Name = reader.GetString(1),
                         Address = reader.GetString(2),
                         Email = reader.GetString(3),
+                        Orders = GetCustomerOrder(reader.GetString(0))
                     });
                 }
                 return listOfCustomer;
@@ -70,6 +71,37 @@ namespace StoreAppDL
             }
         }
 
+        private List<Order> GetCustomerOrder(string p_username)
+        {
+            string SQLQuery = @"select c.Username, o.ID, o.Location, o.TotalPrice from Customer c
+                                inner join Orders o on c.Username = o.Username
+                                where c.Username = @Username";
+
+            List<Order> listOfOrders = new List<Order>();
+
+            using (SqlConnection connect = new SqlConnection(_connectionString))
+            {
+                connect.Open();
+
+                SqlCommand command = new  SqlCommand(SQLQuery, connect);
+
+                command.Parameters.AddWithValue("@Username", p_username);
+
+                SqlDataReader reader =  command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                        listOfOrders.Add(new Order(){
+                        OrderID = reader.GetInt32(1),
+                        Location = reader.GetString(2),
+                        TotalPrice = (double)reader.GetDecimal(3)
+                        
+                    });
+                }
+                return listOfOrders;
+            }
+        }
+        
         public void Update(Customer p_resource)
         {
             throw new NotImplementedException();
