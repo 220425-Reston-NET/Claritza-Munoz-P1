@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text.RegularExpressions;
+using System.Net.Mail;
 
 namespace StoreAppModel
 {
@@ -8,7 +8,25 @@ namespace StoreAppModel
         public string Username { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
-        public string Email { get; set; }
+        private string _email;
+
+        public string Email 
+        { 
+            get {return _email; }
+            set
+            {
+                try
+                {
+                    _email = value;
+                }
+                catch (FormatException)
+                {
+                    
+                    throw new ValidationException("Invalid Email!");
+                }
+                _email = value;
+            }   
+        }
         public List<Order> Orders { get; set; }
 
         public Customer()

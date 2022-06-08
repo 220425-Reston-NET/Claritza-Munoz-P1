@@ -45,6 +45,42 @@ namespace StoreAppModelUnitTest
             
             );
         }
+
+         [Theory]
+        [InlineData("cm@yahoo.com")]
+        [InlineData("dm@gmail.com")]
+        public void EmailValidData(string p_email)
+        {
+            //Arrange
+            Customer obj = new Customer();
+
+             //Act
+            obj.Email = p_email;
+
+            //Assert
+            Assert.NotNull(obj.Email); 
+            Assert.Equal(p_email, obj.Email); 
+        }
+
+        /// <summary>
+        /// checks validation and checks if fails
+        /// </summary>
+        [Theory]
+        [InlineData("hello!")]
+        [InlineData("aaskjuefhakljh")]
+        public void EmailInvalidData(string p_email)
+        {
+            //arrange
+            Customer obj = new Customer();
+
+            //act & assert
+            Assert.Throws<System.ComponentModel.DataAnnotations.ValidationException>(() =>
+                {
+                    obj.Email = p_email ;
+                }
+            
+            );
+        }
     }
 
 }
