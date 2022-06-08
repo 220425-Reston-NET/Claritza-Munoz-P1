@@ -8,9 +8,9 @@ namespace StoreAppBL
     //============Dependency Injection==========
         private iRepository<StoreFront> _storefrontRepo;
 
-        public StoreFrontBL(iRepository<StoreFront> _storefrontRepo)
+        public StoreFrontBL(iRepository<StoreFront> p_storefrontRepo)
         {
-            _storefrontRepo = _storefrontRepo;
+            _storefrontRepo = p_storefrontRepo;
         }
         //==========================================
         public List<Products> ViewStoreInventory(int p_storeId)
